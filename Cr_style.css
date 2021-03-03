@@ -1,0 +1,58 @@
+/*p {
+  color: pink;
+}
+
+img {
+  height: auto;
+  border: 2px solid black;
+  border-radius: 5px;
+}
+
+table {
+  width: 100%;
+  border: 1px solid gray;
+  border-collapse: collapse;
+}
+
+th {
+  background-color: rgb(209, 209, 209);
+}*/
+
+h1 {
+  text-align: center;
+}
+
+header img {
+  width:60%;
+  height:auto;
+}
+
+h2 {
+  font: 1.5em Papyrus,Fantasy  ;
+}
+
+
+/*header img {
+  height:60vh;
+  width:auto;
+}
+*/
+table , tr , th , td {
+  border: 2px dotted rgb(132 , 20 , 150);
+  border-collapse: collapse;
+}
+
+tr:nth-child(2n+1){
+  background-color:	rgb(220,220,220);
+}
+
+tr:hover{
+  color:RGB(255,0,0);
+}
+
+#ingrediente{
+  color:RGB(128, 000, 000);
+}
+.warning{
+  color: navy;
+}
