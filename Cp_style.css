@@ -1,0 +1,45 @@
+h1 {
+
+  text-align: center;
+}
+
+header img {
+  width: 35%;
+  height: auto;
+}
+
+h2 {
+  color : #FF8000;
+  font: 2em Arial, Verdana, sans-serif;
+
+}
+table,tr,td,th { border : 3px solid red; 
+border-collapse : collapse;
+
+}
+tr:nth-of-type(2n){
+  background:gray;
+}
+tr:hover{
+  color:blue;
+}
+#cantitati{
+  font-style: italic;
+  color: aqua;
+}
+.important{
+  font-size: 1.15em;
+  color: gray;
+}
+
+[href^="#"] {
+  text-decoration-line:none;
+}
+td{
+  padding : 5px 10px;
+  margin: 10px;
+}
+
+table{
+  margin: auto;
+}
