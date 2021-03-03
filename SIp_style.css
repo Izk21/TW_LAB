@@ -1,0 +1,63 @@
+h1
+{
+  text-align: center;
+}
+
+header img
+{
+  width:50%;
+  height:auto;
+}
+
+table,td,tr,th {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+tr:nth-of-type(2n+1){
+  background-color: red;
+
+}
+
+tr:hover{
+color:aqua;
+
+}
+
+
+#p {
+  color: blueviolet;
+
+}
+
+.actor {
+
+  font-style: italic;
+}
+
+td {
+  padding-left: 25px;
+}
+
+table {
+ margin: auto; 
+ /*margin: 25px; */
+}
+figure{border: solid;}
+#im{display: block;
+width:50%;
+margin:auto;}
+
+a[href^="#"]
+{
+  text-decoration-line: none;
+}
+section>h2
+{
+font: 1.5em Fantasy, sans-serif;
+/* font-family: Sans-serif, Fantasy, cursive; */
+color:blue;
+}
+
+h2{color:red;}
+
+#p h2{color:red;}
